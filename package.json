@@ -1,0 +1,28 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "Homework#1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js -a list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tim-Pashkevych-GoIT-Bootcamp/goit-node-cli.git"
+  },
+  "author": "Tymofii Pashkevych <tymofii.pashkevych@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tim-Pashkevych-GoIT-Bootcamp/goit-node-cli/issues"
+  },
+  "homepage": "https://github.com/Tim-Pashkevych-GoIT-Bootcamp/goit-node-cli#readme",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "nanoid": "^5.0.6",
+    "nodemon": "^3.1.0"
+  }
+}
