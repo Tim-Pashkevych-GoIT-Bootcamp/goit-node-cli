@@ -4,7 +4,7 @@ import path from "path";
 
 const api = {};
 const __dirname = import.meta.dirname;
-const contactsPath = path.join(__dirname, "./db/contacts.json");
+const contactsPath = path.join(__dirname, "db", "contacts.json");
 
 const updateContacts = async (contacts) => {
   await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
